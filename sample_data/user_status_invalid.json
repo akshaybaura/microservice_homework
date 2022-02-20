@@ -1,0 +1,21 @@
+{
+    "userId": null,
+    "createdAt": null,
+    "lastVisitedAt": null,
+    "status": "",
+    "statusLogs": [
+        {
+            "status": "INITIATED",
+            "updatedOn": 1644527391
+        },
+        {
+            "status": "PENDING_VERIFICATION",
+            "updatedOn": 1644528391
+        },
+        {
+            "status": "VERIFIED",
+            "updatedOn": 1644529391
+        }
+    ],
+    "isBlacklisted": false
+ }
