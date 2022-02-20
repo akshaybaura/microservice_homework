@@ -8,7 +8,7 @@ Services used:
 5. RDS (postgres)
 
 Following is the architecture of the pipeline:
-![alt text](microservice_assignment_drawio.png)
+![alt text](microservice_pipeline.png)
 
 1. The pipeline starts with client making an API call to the exposed URL with the bucket name and the filename(key). This is API is integrated with the **microservice_pipeline_lambda** lambda to receive the request and send a response back to the client.
 2. The lambda parses the request query and queries the **microservice-hw** bucket to determine if the key is present in the bucket. 
